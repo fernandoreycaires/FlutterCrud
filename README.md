@@ -1,4 +1,3 @@
-# flutter_crud
-
+# flutter CRUD
 Aprendendo Flutter
-Primeiro mini projeto, para desevendar como funciona 
+Primeiro "mini" projeto, para desvendar como funciona 
