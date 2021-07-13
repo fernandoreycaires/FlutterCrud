@@ -37,6 +37,7 @@ class UsersProvider with ChangeNotifier {
           avatarUrl: user.avatarUrl,
         ),
       );
+      notifyListeners();
     } else {
       //ou adicionar
       final id = Random().nextDouble().toString();
@@ -49,6 +50,7 @@ class UsersProvider with ChangeNotifier {
           avatarUrl: user.avatarUrl,
         ),
       );
+      notifyListeners();
     }
   }
 
@@ -60,5 +62,5 @@ class UsersProvider with ChangeNotifier {
     }
   }
 
-  notifyListeners();
+  //notifyListeners();
 }
